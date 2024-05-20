@@ -43,7 +43,9 @@ let estudiantes = [{
 
 let estudys = estudiantes.map((valores) => {
     let {nombre, apellido, edad, carrera} = valores;
-    console.log(`Hola ${nombre} ${apellido} con ${edad}, de la carrera de ${carrera}`);
+    alert(`Hola ${nombre} ${apellido} con ${edad}, de la carrera de ${carrera}`);
+    //console.log(`Hola ${nombre} ${apellido} con ${edad}, de la carrera de ${carrera}`);
+    
     
 })
 
